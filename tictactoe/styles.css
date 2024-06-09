@@ -1,0 +1,64 @@
+.t-board {
+  width: 600px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: black;
+}
+
+.t-section-win {
+  background-color: green;
+}
+
+.t-section-loss {
+  background-color: red;
+}
+
+.t-cell {
+  width: 200px;
+  height: 200px;
+  transition: background-color 0.2s, opacity 0.01s;
+}
+
+.t-cell:hover {
+  background-color: lightgreen;
+}
+
+.t-cell:active {
+  opacity: 0.3;
+}
+
+.t-row {
+  width: 600px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+.r-border {
+  border-right-color: aquamarine;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.b-border {
+  border-bottom-color: aquamarine;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.r-game-text {
+  font-size: 50px;
+  text-align: center;
+}
+
+.r-game-text-top-margin {
+  margin-top: 50px;
+}
+
+.r-btn-restart {
+  border: none;
+  font-size: 25px;
+  width: 60%;
+  height: 45px;
+  margin-top: 65px;
+}
